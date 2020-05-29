@@ -12,3 +12,6 @@ npm-debug.log
 yarn-error.log
 
 .mysql_data
+/public/mix-manifest.json
+/public/js/app.js
+/public/css/app.css
