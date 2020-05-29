@@ -34,7 +34,7 @@ services:
       - db
   
   npm:
-    image: node:12.16.2
+    image: node:12
     volumes:
       - ./:/var/www/html
       - ./.docker/node-entrypoint.sh:/usr/local/bin/node-entrypoint.sh
